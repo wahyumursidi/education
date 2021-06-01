@@ -1,0 +1,136 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ .container {
+     width: 80%;
+     margin: 0 auto;
+     overflow: hidden;
+ }
+
+ header {
+    padding: 10px;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    text-transform: uppercase;
+ }
+
+ header button {
+     margin-top: 10px;
+     padding: 10px 30px;
+     outline: none;
+     border: none;
+     border-radius: 6px;
+     background-color: plum;
+     color: purple;
+ }
+
+ nav {
+    padding: 15px;
+    background-color: plum;
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ nav ul li {
+     list-style-type: none;
+     margin: 0 25px;
+ }
+
+ nav ul li a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ .content {
+     background-color: rgb(236, 193, 236);
+     padding: 20px;
+ }
+
+ .banner {
+     text-align: center;
+ }
+
+ .banner h1 {
+     text-transform: uppercase;
+ }
+
+ .banner p {
+     font-size: 14px;
+ }
+
+ .banner a {
+     display: inline-block;
+     margin-top: 15px;
+     padding: 10px 15px;
+     background-color: purple;
+     text-decoration: none;
+     color: white;
+     border: none;
+     outline: none;
+     border-radius: 6px;
+ }
+
+ section {
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+ .card {
+     flex: 1 0 30%;
+     border: 1px solid white;
+     text-align: center;
+     padding: 10px;
+     margin: 10px;
+ }
+
+ .card .card-header {
+     border: 1px solid white;
+     padding: 5px;
+ }
+
+ .card .card-body {
+     padding: 5px;
+ }
+
+ .card .card-body p {
+     font-size: 14px;
+ }
+
+ .card .card-body a {
+     display: inline-block;
+     margin-top: 10px;
+     padding: 10px 15px;
+     text-decoration: none;
+     background-color: purple;
+     font-size: 14px;
+     color: white;
+     border: none;
+     outline: none;
+     border-radius: 6px;
+ }
+
+ footer {
+     background-color: purple;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+ }
